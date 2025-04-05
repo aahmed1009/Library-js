@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Step 1: Ask for number of books -->
+    <section id="step1">
+      <h1>Welcome to the Library Manager</h1>
+      <p>How many books would you like to enter?</p>
+      <input
+        type="number"
+        id="bookTotal"
+        min="1"
+        placeholder="Enter number of books"
+      />
+      <button id="startButton">Start</button>
+    </section>
+
+    <!-- Step 2: Fill book details -->
+    <section id="step2" style="display: none">
+      <h2>Enter Details for Each Book</h2>
+      <form id="bookForm">
+        <!-- Book input groups will be added here -->
+      </form>
+      <button id="submitBooks">Finish & Show Table</button>
+    </section>
+
+    <!-- Step 3: Show table -->
+    <section id="step3" style="display: none">
+      <h2>All Books</h2>
+      <table border="1" id="booksTable">
+        <thead>
+          <tr>
+            <th>Book Title</th>
+            <th>Price</th>
+            <th>Author Name</th>
+            <th>Author Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!-- Populated by JavaScript -->
+        </tbody>
+      </table>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

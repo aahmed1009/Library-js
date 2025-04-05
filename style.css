@@ -1,0 +1,88 @@
+body {
+  background-color: beige;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: darkgreen;
+}
+
+section {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 80%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: white;
+}
+
+td input {
+  width: 90%;
+  padding: 5px;
+}
+
+.actions button {
+  margin: 2px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.actions .edit {
+  background-color: orange;
+}
+
+.actions .delete {
+  background-color: red;
+  color: white;
+}
+
+.actions .save {
+  background-color: green;
+  color: white;
+}
+
+.actions .cancel {
+  background-color: gray;
+  color: white;
+}
